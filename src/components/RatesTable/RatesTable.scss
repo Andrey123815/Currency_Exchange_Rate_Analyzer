@@ -1,0 +1,40 @@
+.table {
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 450px;
+  @media screen and (max-width: 500px) {
+    min-width: 95vw;
+  }
+  border-spacing: 0 20px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #11ece5;
+
+  @media screen and (max-width: 750px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 750px) {
+    padding: 0 15px;
+  }
+}
+
+tr {
+  line-height: 50px;
+}
+
+th {
+  color: #999ca5;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+td,
+th {
+  text-align: center;
+  cursor: pointer;
+}

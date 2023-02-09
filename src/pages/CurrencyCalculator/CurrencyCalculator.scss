@@ -1,0 +1,15 @@
+.currency-calculator {
+  background: #303030;
+  max-width: 40vw;
+  @media screen and (min-width: 750px) {
+    min-width: 500px;
+    height: 80px;
+  }
+  @media screen and (max-width: 750px) {
+    min-width: 80vw;
+    height: 200px;
+  }
+  border-radius: 10px;
+  border: 2px solid #11ece5;
+  padding: 20px;
+}
