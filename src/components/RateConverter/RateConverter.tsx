@@ -33,7 +33,7 @@ const RateConverter: React.FC<IRateConverterProps> = (props) => {
       return;
     }
 
-    num = parseInt(value, 4);
+    num = parseInt(value, 10);
     setFromValue(num);
     setToValue(convert(num, fromCurrency, toCurrency, rates));
   };
